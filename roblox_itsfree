@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:image" content="https://ee-web.susu.ru/wp-content/uploads/2015/11/ee-web-hosting-2.png">
+    <meta property="og:type" content="video.other">
+    <meta property="og:video:url" content="https://b3.thefileditch.ch/TDDGKVPJMeWTMMHAeMOQ.mp4">
+    <meta property="og:video:width" content="1280">
+    <meta property="og:video:height" content="720">
+    <meta property="theme-color" content="#C74600">
+    <style>
+        body {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        background-color: pink;
+        color: purple;
+        }
+
+        h1 {
+        text-align: center;
+        font-size: 3em;
+        }
+
+        p {
+        text-align: center;
+        font-size: 1.5em;
+        }
+
+        a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+        }
+
+        button {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+        }
+
+        button:hover {
+        transform: scale(1.1);
+        }
+
+        button:active {
+        transform: scale(0.9);
+        }
+    </style>
+</head>
+<body>
+    <video controls="" onloadstart="this.volume=0.15" name="media">
+        <source src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" type="video/mp4">
+    </video>
+    <a href="https://discord.gg/rnyh57Gmn2">
+        <button>DejavuHub on Discord</button>
+    </a>
+</html>
